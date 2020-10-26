@@ -93,6 +93,7 @@ An interactive journal where you can record and customize each entry utilizing s
 <img src="https://github.com/Team-Journals/Journal-Journeys/blob/main/wireframe.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
+https://github.com/Team-Journals/Journal-Journeys/blob/main/wireframe.png
 
 ### [BONUS] Interactive Prototype
 
