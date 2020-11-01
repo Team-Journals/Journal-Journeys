@@ -12,12 +12,12 @@ An interactive journal where you can record and customize each entry utilizing s
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category: Lifestyle**
-- **Mobile: iOS compatible**
-- **Story: Records journal entries that are more personalized by the use of various themes and decorative stickers to engage the user in active journaling**
-- **Market: Individuals across different age groups can use this app. Only the user will see their journal entries which will be kept private in their account**
-- **Habit: This app could be used for however frequently the user decides to record their thoughts throughout their day**
-- **Scope: The app's scope is for the user only instead of being meant to share with others; however, a feature could be implemented if users would request to add friends and they can have posts in which their friends or followers can view**
+- **Category:** Lifestyle
+- **Mobile:** iOS compatible
+- **Story:** Records journal entries that are more personalized by the use of various themes and decorative stickers to engage the user in active journaling
+- **Market:** Individuals across different age groups can use this app. Only the user will see their journal entries which will be kept private in their account
+- **Habit:** This app could be used for however frequently the user decides to record their thoughts throughout their day
+- **Scope:** The app's scope is for the user only instead of being meant to share with others; however, a feature could be implemented if users would request to add friends and they can have posts in which their friends or followers can view
 
 ## Product Spec
 
