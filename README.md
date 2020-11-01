@@ -11,7 +11,6 @@
 An interactive journal where you can record and customize each entry utilizing stickers, moods, etc. to describe your day and experiences
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category:** Lifestyle
 - **Mobile:** iOS compatible
 - **Story:** Records journal entries that are more personalized by the use of various themes and decorative stickers to engage the user in active journaling
