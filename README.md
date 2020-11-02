@@ -100,7 +100,98 @@ https://github.com/Team-Journals/Journal-Journeys/blob/main/wireframe.png
 [This section will be completed in Unit 9]
 ### Models
 [Add table of models]
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+//(Read/GET) Query all posts where user is author
+let query = PFQuery(className:"Entries")
+query.whereKey("username", equalTo: currentUser)
+query.order(byDescending: "createdAt")
+query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+   if let error = error {
+      print(error.localizedDescription)
+   } else if let entries = entries {
+      print("Successfully retrieved \(entries.count) entries.")
+      // TODO: Do something with posts...
+   }
+}
+//Saving a Journal Entry
+let entries = PFObject(className:"Compose")
+entries["textbox"] = “Journal Entry here”
+entries["date"] = DateTime(2020,11,1,6,50)
+entries["stickers"] = “sticker url”
+
+entries.saveInBackground { (succeeded, error)  in
+    if (succeeded) {
+        // The object has been saved.
+    } else {
+        // There was a problem, check error.description
+    }
+}
+
+Deleting a Journal Entry:
+PFObject.deleteAll(inBackground: entryArray) { (succeeded, error) in
+    if (succeeded) {
+        print(“The array of objects was successfully deleted.”)
+    } else {
+      print(error.localizedDescription)
+    }
+}
+
+
+//(Update/PUT) Update user journal entries
+let query = PFQuery(className:"Compose")
+query.getObjectInBackground(withId: "xWMyZEGZ") { (Compose: PFObject?, error: Error?) in
+    if let error = error {
+        print(error.localizedDescription)
+    } else if let Compose = Compose{
+        entries["textbox"] = “Update Journal Entry here”
+	
+        entries["date"] = DateTime(2020,11,1,6,50)
+	   entries["stickers"] = “sticker url”
+	
+        Compose.saveInBackground()
+    }
+}
+//Updating profile picture
+let query = PFQuery(className:"Profile")
+query.getObjectInBackground(withId: "username") { (profilePic: PFObject?, error: Error?) in
+    if let error = error {
+        print(error.localizedDescription)
+    } else if let profilePic = profilePic {
+        Profile["profilePicAdded"] = true
+        Profile["profilePic"] = profilepic.image
+        Profile.saveInBackground()
+    }
+}
+//Update user password
+let query = PFQuery(className:"Profile")
+query.getObjectInBackground(withId: "password") { (password: PFObject?, error: Error?) in
+    if let error = error {
+        print(error.locaalizedDescription)
+    } else if let password = password {
+        Profile["password"] = true
+        Profile["password"] = password.text
+        Profile.saveInBackground()
+    }
+}
+
+//Update user email
+let query = PFQuery(className:"Profile")
+query.getObjectInBackground(withId: "username") { (email: PFObject?, error: Error?) in
+    if let error = error {
+        print(error.localizedDescription)
+    } else if let email = email {
+        Profile["emailAdded"] = true
+        Profile["email"] = email.text
+        profile.saveInBackground()
+    }
+}
+//query logged in user object 
+let query = PFQuery(className:"Profile")
+query.getObjectInBackground(withId: "username") { (username, error) in
+    if error == nil {
+        print(“Success!!”)
+    } else {
+        print(error.localizedDescription)
+    }
+}
