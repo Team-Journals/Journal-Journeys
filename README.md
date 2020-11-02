@@ -102,6 +102,7 @@ https://github.com/Team-Journals/Journal-Journeys/blob/main/wireframe.png
 [Add table of models]
 
 ### Networking
+```
 //(Read/GET) Query all posts where user is author
 let query = PFQuery(className:"Entries")
 query.whereKey("username", equalTo: currentUser)
@@ -137,13 +138,18 @@ PFObject.deleteAll(inBackground: entryArray) { (succeeded, error) in
     }
 }
 
+	//(Update/PUT) Update user journal entries
 
-//(Update/PUT) Update user journal entries
-let query = PFQuery(className:"Compose")
-query.getObjectInBackground(withId: "xWMyZEGZ") { (Compose: PFObject?, error: Error?) in
+	let query = PFQuery(className:"Compose")
+
+	query.getObjectInBackground(withId: "xWMyZEGZ") { (Compose: PFObject?, error: Error?) in
+
     if let error = error {
+    
         print(error.localizedDescription)
+	
     } else if let Compose = Compose{
+    
         entries["textbox"] = “Update Journal Entry here”
 	
         entries["date"] = DateTime(2020,11,1,6,50)
@@ -151,7 +157,8 @@ query.getObjectInBackground(withId: "xWMyZEGZ") { (Compose: PFObject?, error: Er
 	
         Compose.saveInBackground()
     }
-}
+    
+	}
 //Updating profile picture
 let query = PFQuery(className:"Profile")
 query.getObjectInBackground(withId: "username") { (profilePic: PFObject?, error: Error?) in
@@ -195,3 +202,4 @@ query.getObjectInBackground(withId: "username") { (username, error) in
         print(error.localizedDescription)
     }
 }
+```
