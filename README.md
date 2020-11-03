@@ -100,7 +100,7 @@ https://github.com/Team-Journals/Journal-Journeys/blob/main/wireframe.png
 [This section will be completed in Unit 9]
 ### Models
 [Add table of models]
-<img src="https://github.com/Team-Journals/Journal-Journeys/blob/main/CodePathModels.png" width=600>
+<img src="https://github.com/Team-Journals/Journal-Journeys/blob/Miscellaneous/CodePathModels.png" width=600>
 
 ### Networking
 ```
