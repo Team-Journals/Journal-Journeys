@@ -15,6 +15,7 @@
 		50469E0A25365710006FCF09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50469E0825365710006FCF09 /* LaunchScreen.storyboard */; };
 		50469E1525365710006FCF09 /* Journal_JourniesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50469E1425365710006FCF09 /* Journal_JourniesTests.swift */; };
 		50469E2025365710006FCF09 /* Journal_JourniesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50469E1F25365710006FCF09 /* Journal_JourniesUITests.swift */; };
+		BDF5EF602558944100C2B913 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5EF5F2558944100C2B913 /* registerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		50469E1B25365710006FCF09 /* Journal-JourniesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Journal-JourniesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50469E1F25365710006FCF09 /* Journal_JourniesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal_JourniesUITests.swift; sourceTree = "<group>"; };
 		50469E2125365710006FCF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF5EF5F2558944100C2B913 /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				50469E0625365710006FCF09 /* Assets.xcassets */,
 				50469E0825365710006FCF09 /* LaunchScreen.storyboard */,
 				50469E0B25365710006FCF09 /* Info.plist */,
+				BDF5EF5F2558944100C2B913 /* registerViewController.swift */,
 			);
 			path = "Journal-Journies";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				50469E022536570F006FCF09 /* ViewController.swift in Sources */,
 				50469DFE2536570F006FCF09 /* AppDelegate.swift in Sources */,
 				50469E002536570F006FCF09 /* SceneDelegate.swift in Sources */,
+				BDF5EF602558944100C2B913 /* registerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
