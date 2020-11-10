@@ -23,9 +23,8 @@ An interactive journal where you can record and customize each entry utilizing s
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-
-* [sign up]
-* [sign in]
+* [x][sign up]
+* [x][sign in]
 * [compose a new entry]
 * [view all prior entries]
 
@@ -203,3 +202,8 @@ query.getObjectInBackground(withId: "username") { (username, error) in
     }
 }
 ```
+Milestone 1 GIF:
+<img src='https://media.giphy.com/media/mQJX1gfXXLeeqRaGDK/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+Milestone 1 Part2 GIF:
+<img src='https://recordit.co/TQbUWudFah' title='Video Walkthrough1' width='' alt='Video Walkthrough1' />
