@@ -20,6 +20,8 @@
 		532AA2837F3ED636FB672CE8 /* Pods_Journal_JourneysTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0656D9FF57845ADE3B2BB3BB /* Pods_Journal_JourneysTests.framework */; };
 		BDA77F29255A173B007DEE01 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA77F28255A173B007DEE01 /* registerViewController.swift */; };
 		E6EA3660961059F80B886F4C /* Pods_Journal_Journeys_Journal_JourneysUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7013FB10953D36E4958AE7A /* Pods_Journal_Journeys_Journal_JourneysUITests.framework */; };
+		EA8E1A0D255A4AD8005575FF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E1A0C255A4AD8005575FF /* ProfileViewController.swift */; };
+		EA8E1A12255A503B005575FF /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E1A11255A503B005575FF /* UpdateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		BDA77F28255A173B007DEE01 /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
 		C535E6E37E2A8E44D6DDC721 /* Pods-Journal Journeys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journal Journeys.release.xcconfig"; path = "Target Support Files/Pods-Journal Journeys/Pods-Journal Journeys.release.xcconfig"; sourceTree = "<group>"; };
 		CEFB3C2B361D70AC6D271D75 /* Pods-Journal Journeys-Journal JourneysUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journal Journeys-Journal JourneysUITests.debug.xcconfig"; path = "Target Support Files/Pods-Journal Journeys-Journal JourneysUITests/Pods-Journal Journeys-Journal JourneysUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA8E1A0C255A4AD8005575FF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		EA8E1A11255A503B005575FF /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
 		F7013FB10953D36E4958AE7A /* Pods_Journal_Journeys_Journal_JourneysUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Journal_Journeys_Journal_JourneysUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -129,6 +133,8 @@
 				50D0FA8B25591201009D338A /* HomeFeedViewController.swift */,
 				50D0FA9325591221009D338A /* LoginViewController.swift */,
 				BDA77F28255A173B007DEE01 /* registerViewController.swift */,
+				EA8E1A0C255A4AD8005575FF /* ProfileViewController.swift */,
+				EA8E1A11255A503B005575FF /* UpdateViewController.swift */,
 			);
 			path = "Journal Journeys";
 			sourceTree = "<group>";
@@ -412,10 +418,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA8E1A0D255A4AD8005575FF /* ProfileViewController.swift in Sources */,
 				50D0FA9425591221009D338A /* LoginViewController.swift in Sources */,
 				50D0FA4325590EE7009D338A /* AppDelegate.swift in Sources */,
 				50D0FA4525590EE7009D338A /* SceneDelegate.swift in Sources */,
 				BDA77F29255A173B007DEE01 /* registerViewController.swift in Sources */,
+				EA8E1A12255A503B005575FF /* UpdateViewController.swift in Sources */,
 				50D0FA8C25591201009D338A /* HomeFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
