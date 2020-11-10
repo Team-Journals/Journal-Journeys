@@ -204,4 +204,6 @@ query.getObjectInBackground(withId: "username") { (username, error) in
 ```
 Milestone 1 GIF:
 <img src='https://media.giphy.com/media/mQJX1gfXXLeeqRaGDK/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+Milestone 1 Part2 GIF:
 <img src='https://recordit.co/TQbUWudFah' title='Video Walkthrough1' width='' alt='Video Walkthrough1' />
