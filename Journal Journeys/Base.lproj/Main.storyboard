@@ -46,9 +46,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYF-pl-Gc0">
-                                <rect key="frame" x="51" y="539" width="47" height="31"/>
+                                <rect key="frame" x="51" y="551" width="47" height="31"/>
                                 <state key="normal" title="Sign In">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" red="0.60627448559999997" green="0.1105902269" blue="0.12154255059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="onSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aak-AX-HOK"/>
@@ -85,12 +85,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KD3-Lv-ohX">
-                                <rect key="frame" x="310" y="537" width="54" height="35"/>
+                                <rect key="frame" x="310" y="549" width="54" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="Z96-dw-Mmg"/>
                                 </constraints>
                                 <state key="normal" title="Sign Up">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" red="0.60627448559999997" green="0.1105902269" blue="0.12154255059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <segue destination="gSi-PR-A1q" kind="presentation" id="x3V-1b-tbN"/>
@@ -101,9 +101,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Efn-CW-ViJ" firstAttribute="top" secondItem="xIj-OJ-WQz" secondAttribute="bottom" constant="8" symbolic="YES" id="0sH-tx-gN8"/>
-                            <constraint firstItem="KD3-Lv-ohX" firstAttribute="top" secondItem="DjE-ea-th1" secondAttribute="bottom" constant="76" id="2Iu-34-Iqq"/>
+                            <constraint firstItem="KD3-Lv-ohX" firstAttribute="top" secondItem="DjE-ea-th1" secondAttribute="bottom" constant="88" id="2Iu-34-Iqq"/>
                             <constraint firstItem="LW0-FX-Qzg" firstAttribute="top" secondItem="dmK-yi-TeL" secondAttribute="bottom" constant="37" id="5gh-vz-t0d"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KD3-Lv-ohX" secondAttribute="bottom" constant="236" id="B4w-GI-h4h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KD3-Lv-ohX" secondAttribute="bottom" constant="224" id="B4w-GI-h4h"/>
                             <constraint firstItem="DjE-ea-th1" firstAttribute="leading" secondItem="hgr-rl-PJa" secondAttribute="leading" id="Bfu-O2-7xF"/>
                             <constraint firstItem="DjE-ea-th1" firstAttribute="top" secondItem="LW0-FX-Qzg" secondAttribute="bottom" constant="8" symbolic="YES" id="CoM-tg-Xc4"/>
                             <constraint firstItem="DjE-ea-th1" firstAttribute="trailing" secondItem="h3n-40-pLJ" secondAttribute="trailing" id="GvV-cg-9tE"/>
@@ -118,7 +118,8 @@
                             <constraint firstItem="hgr-rl-PJa" firstAttribute="top" secondItem="DjE-ea-th1" secondAttribute="bottom" constant="19" id="Tpt-6C-dvD"/>
                             <constraint firstItem="LW0-FX-Qzg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="Zxe-hj-lum"/>
                             <constraint firstItem="h3n-40-pLJ" firstAttribute="leading" secondItem="DYF-pl-Gc0" secondAttribute="leading" id="bFt-wa-8K6"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DYF-pl-Gc0" secondAttribute="bottom" constant="238" id="c99-Kp-A3D"/>
+                            <constraint firstItem="KD3-Lv-ohX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="DYF-pl-Gc0" secondAttribute="trailing" constant="8" symbolic="YES" id="bKe-BE-G3f"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DYF-pl-Gc0" secondAttribute="bottom" constant="226" id="c99-Kp-A3D"/>
                             <constraint firstItem="dmK-yi-TeL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="eMs-66-X7L"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dmK-yi-TeL" secondAttribute="trailing" constant="92" id="eRq-E3-oxw"/>
                             <constraint firstItem="xIj-OJ-WQz" firstAttribute="top" secondItem="33Z-nX-h8c" secondAttribute="bottom" constant="8" symbolic="YES" id="fG5-sH-XE8"/>
@@ -229,7 +230,47 @@
             </objects>
             <point key="canvasLocation" x="140.57971014492756" y="879.91071428571422"/>
         </scene>
-        <!--Item-->
+        <!--Compose-->
+        <scene sceneID="TI5-Qe-Nyg">
+            <objects>
+                <viewController id="dyR-vT-duS" customClass="ComposeViewController" customModule="Journal_Journeys" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SAU-Kj-fY0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Today's journey..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aKD-RZ-YbH">
+                                <rect key="frame" x="20" y="56" width="374" height="573"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="573" id="Cr4-7D-DZM"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lx7-Mk-ynP">
+                                <rect key="frame" x="171" y="710" width="73" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Save Entry">
+                                    <color key="titleColor" red="0.60627448559999997" green="0.1105902269" blue="0.12154255059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iPT-zM-444"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aKD-RZ-YbH" firstAttribute="leading" secondItem="iPT-zM-444" secondAttribute="leading" constant="20" id="Qzd-oM-ks7"/>
+                            <constraint firstItem="iPT-zM-444" firstAttribute="trailing" secondItem="aKD-RZ-YbH" secondAttribute="trailing" constant="20" id="jdz-cv-oxw"/>
+                            <constraint firstItem="aKD-RZ-YbH" firstAttribute="top" secondItem="iPT-zM-444" secondAttribute="top" id="t4x-ae-COk"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Compose" image="pencil.and.outline" catalog="system" id="hhT-Zj-dQH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bON-6v-lxf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3063.768115942029" y="-557.14285714285711"/>
+        </scene>
+        <!--Home-->
         <scene sceneID="r6Z-qE-po0">
             <objects>
                 <viewController id="T6Z-o3-KFw" customClass="HomeFeedViewController" customModule="Journal_Journeys" customModuleProvider="target" sceneMemberID="viewController">
@@ -239,14 +280,14 @@
                         <viewLayoutGuide key="safeArea" id="FDq-kJ-wxf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="ek5-8J-b5L"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="ek5-8J-b5L"/>
                     <navigationItem key="navigationItem" id="oUn-HP-T0Y"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Jl-aU-IHz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3065.217391304348" y="123.88392857142857"/>
         </scene>
-        <!--Item-->
+        <!--Profile-->
         <scene sceneID="2o0-Pj-0XJ">
             <objects>
                 <viewController id="JSe-b9-HJ8" customClass="ProfileViewController" customModule="Journal_Journeys" customModuleProvider="target" sceneMemberID="viewController">
@@ -316,7 +357,7 @@
                         <viewLayoutGuide key="safeArea" id="z2f-fu-ui2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="xLi-lr-gZf"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person" catalog="system" id="xLi-lr-gZf"/>
                     <connections>
                         <outlet property="colorPicker" destination="aqF-Et-EWZ" id="ofq-oz-q2U"/>
                     </connections>
@@ -389,7 +430,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="luV-xp-He3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3017" y="951"/>
+            <point key="canvasLocation" x="3065" y="904"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="sz4-5C-u6T">
@@ -416,12 +457,14 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="4lg-qR-uMg"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SGC-fn-pgN">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="T6Z-o3-KFw" kind="relationship" relationship="viewControllers" id="8Mi-ey-Ola"/>
                         <segue destination="JSe-b9-HJ8" kind="relationship" relationship="viewControllers" id="Wca-W9-UDf"/>
+                        <segue destination="dyR-vT-duS" kind="relationship" relationship="viewControllers" id="sKL-44-Ybh"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fSx-BX-NZQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -430,10 +473,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="k2z-ab-5EX"/>
+        <segue reference="Wca-W9-UDf"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="AvatarPlaceHolder" width="720" height="722"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="pencil.and.outline" catalog="system" width="128" height="128"/>
+        <image name="person" catalog="system" width="128" height="117"/>
         <image name="pngkey.com-art-icon-png-8621568" width="523" height="505"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
