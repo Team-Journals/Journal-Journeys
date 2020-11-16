@@ -6,16 +6,37 @@
 //
 
 import UIKit
+import Parse
 
-class ComposeViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+class ComposeViewController: UIViewController, UITextViewDelegate {
 
-        // Do any additional setup after loading the view.
+    @IBOutlet weak var entryField: UITextView!
+    
+    @IBOutlet weak var scrollView: UIScrollView!
+    
+    @IBAction func onSaveEntryButton(_ sender: Any) {
+        let entry = PFObject(className: "Entries")
+        entry["textBody"] = entryField.text!
+        entry["author"] = PFUser.current()! //idk what we gone be using this for but maybe we can use it later idk
+        
+        entry.saveInBackground { (success, error) in
+            if success{
+                print("saved!")
+            }
+            else{
+                print("error!")
+            }
+        }
     }
     
+    override func viewDidLoad() {
+          super.viewDidLoad()
+        scrollView.contentSize = CGSize(width: self.view.frame.width, height: self.view.frame.height+100)
+          
 
+          // Do any additional setup after loading the view.
+      }
     /*
     // MARK: - Navigation
 

@@ -230,7 +230,7 @@
             </objects>
             <point key="canvasLocation" x="140.57971014492756" y="879.91071428571422"/>
         </scene>
-        <!--Compose-->
+        <!--Compose View Controller-->
         <scene sceneID="TI5-Qe-Nyg">
             <objects>
                 <viewController id="dyR-vT-duS" customClass="ComposeViewController" customModule="Journal_Journeys" customModuleProvider="target" sceneMemberID="viewController">
@@ -239,22 +239,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Today's journey..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aKD-RZ-YbH">
-                                <rect key="frame" x="20" y="56" width="374" height="573"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <rect key="frame" x="20" y="56" width="374" height="319"/>
+                                <color key="backgroundColor" red="0.74758989789999997" green="0.71742067990000002" blue="0.88546389250000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="573" id="Cr4-7D-DZM"/>
+                                    <constraint firstAttribute="height" constant="319" id="Cr4-7D-DZM"/>
                                 </constraints>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lx7-Mk-ynP">
-                                <rect key="frame" x="171" y="710" width="73" height="30"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hft-re-kx5">
+                                <rect key="frame" x="0.0" y="56" width="414" height="786"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Save Entry">
-                                    <color key="titleColor" red="0.60627448559999997" green="0.1105902269" blue="0.12154255059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                            </button>
+                                <viewLayoutGuide key="contentLayoutGuide" id="4J5-6E-Wiu"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="ezb-r2-sZS"/>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="iPT-zM-444"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -264,11 +263,28 @@
                             <constraint firstItem="aKD-RZ-YbH" firstAttribute="top" secondItem="iPT-zM-444" secondAttribute="top" id="t4x-ae-COk"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Compose" image="pencil.and.outline" catalog="system" id="hhT-Zj-dQH"/>
+                    <navigationItem key="navigationItem" id="c6P-im-ofo">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="EjB-iV-aUr">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Lx7-Mk-ynP">
+                                <rect key="frame" x="321" y="13" width="73" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Save Entry">
+                                    <color key="titleColor" red="0.60627448559999997" green="0.1105902269" blue="0.12154255059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="onSaveEntryButton:" destination="dyR-vT-duS" eventType="touchUpInside" id="p7f-g2-g2r"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="entryField" destination="aKD-RZ-YbH" id="ebB-Bj-sCd"/>
+                        <outlet property="scrollView" destination="Hft-re-kx5" id="i5D-uX-YnD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bON-6v-lxf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3063.768115942029" y="-557.14285714285711"/>
+            <point key="canvasLocation" x="3973.913043478261" y="-557.14285714285711"/>
         </scene>
         <!--Home-->
         <scene sceneID="r6Z-qE-po0">
@@ -464,12 +480,31 @@
                     <connections>
                         <segue destination="T6Z-o3-KFw" kind="relationship" relationship="viewControllers" id="8Mi-ey-Ola"/>
                         <segue destination="JSe-b9-HJ8" kind="relationship" relationship="viewControllers" id="Wca-W9-UDf"/>
-                        <segue destination="dyR-vT-duS" kind="relationship" relationship="viewControllers" id="sKL-44-Ybh"/>
+                        <segue destination="uh5-ot-uwM" kind="relationship" relationship="viewControllers" id="sKL-44-Ybh"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fSx-BX-NZQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2155.072463768116" y="123.88392857142857"/>
+        </scene>
+        <!--Compose-->
+        <scene sceneID="JZg-x2-3mZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uh5-ot-uwM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Compose" image="pencil.and.outline" catalog="system" id="hhT-Zj-dQH"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CWr-YW-E8k">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dyR-vT-duS" kind="relationship" relationship="rootViewController" id="aVQ-bZ-703"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y9v-Q7-B5W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3063.768115942029" y="-557.14285714285711"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
