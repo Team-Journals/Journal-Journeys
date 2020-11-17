@@ -25,7 +25,7 @@ An interactive journal where you can record and customize each entry utilizing s
 **Required Must-have Stories**
 * [x][sign up]
 * [x][sign in]
-* [compose a new entry]
+* [IN PROGRESS][compose a new entry]
 * [view all prior entries]
 
 **Optional Nice-to-have Stories**
@@ -46,7 +46,7 @@ An interactive journal where you can record and customize each entry utilizing s
     * Selection of background colors for apps
     * Choice of app font for viewing each screen of the app
     * Setting/selecting profile picture
-* Settings
+* [IN PROGRESS]Settings
     * Change username
     * Change password
     * Change email
@@ -207,3 +207,6 @@ Milestone 1 GIF:
 
 Milestone 1 Part2 GIF:
 <img src='https://recordit.co/TQbUWudFah.gif' title='Video Walkthrough1' width='' alt='Video Walkthrough1' />
+
+Milestone 2 GIF:
+<img src='https://media.giphy.com/media/o4fhSW0AAPMvclCUd6/giphy.gif' title='Video Walkthrough2' width='' alt='Video Walkthrough2' />
