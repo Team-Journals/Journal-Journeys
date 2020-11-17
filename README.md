@@ -25,7 +25,7 @@ An interactive journal where you can record and customize each entry utilizing s
 **Required Must-have Stories**
 * [x][sign up]
 * [x][sign in]
-* [compose a new entry]
+* [IN PROGRESS][compose a new entry]
 * [view all prior entries]
 
 **Optional Nice-to-have Stories**
