@@ -207,3 +207,6 @@ Milestone 1 GIF:
 
 Milestone 1 Part2 GIF:
 <img src='https://recordit.co/TQbUWudFah.gif' title='Video Walkthrough1' width='' alt='Video Walkthrough1' />
+
+Milestone 2 GIF:
+<img src='https://media.giphy.com/media/o4fhSW0AAPMvclCUd6/giphy.gif' title='Video Walkthrough2' width='' alt='Video Walkthrough2' />
