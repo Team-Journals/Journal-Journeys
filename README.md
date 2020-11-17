@@ -46,7 +46,7 @@ An interactive journal where you can record and customize each entry utilizing s
     * Selection of background colors for apps
     * Choice of app font for viewing each screen of the app
     * Setting/selecting profile picture
-* Settings
+* [IN PROGRESS]Settings
     * Change username
     * Change password
     * Change email
