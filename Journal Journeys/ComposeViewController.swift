@@ -8,7 +8,6 @@
 import UIKit
 import Parse
 
-
 class ComposeViewController: UIViewController, UITextViewDelegate {
 
     @IBOutlet weak var entryField: UITextView!

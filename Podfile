@@ -8,6 +8,7 @@ target 'Journal Journeys' do
   # Pods for Journal Journeys
   pod "Parse"
   pod "AlamofireImage"
+  pod "CircularSlider"
 
   target 'Journal JourneysTests' do
     inherit! :search_paths
