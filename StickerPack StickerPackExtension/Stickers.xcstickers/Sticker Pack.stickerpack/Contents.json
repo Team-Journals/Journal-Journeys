@@ -1,0 +1,23 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  },
+  "stickers" : [
+    {
+      "filename" : "heartStickers.sticker"
+    },
+    {
+      "filename" : "lightbulbSticker.sticker"
+    },
+    {
+      "filename" : "cookieMonsterSticker.sticker"
+    },
+    {
+      "filename" : "kittySticker.sticker"
+    }
+  ]
+}

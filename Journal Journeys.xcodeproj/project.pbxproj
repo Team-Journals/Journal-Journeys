@@ -19,6 +19,10 @@
 		50D0FA8C25591201009D338A /* HomeFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D0FA8B25591201009D338A /* HomeFeedViewController.swift */; };
 		50D0FA9425591221009D338A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D0FA9325591221009D338A /* LoginViewController.swift */; };
 		532AA2837F3ED636FB672CE8 /* Pods_Journal_JourneysTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0656D9FF57845ADE3B2BB3BB /* Pods_Journal_JourneysTests.framework */; };
+		BD7AF51B256B9684007594A5 /* StickerPack StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BD7AF51A256B9684007594A5 /* StickerPack StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BD7AF51F256B9684007594A5 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = BD7AF51E256B9684007594A5 /* Stickers.xcstickers */; };
+		BD7AF520256B9684007594A5 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = BD7AF51E256B9684007594A5 /* Stickers.xcstickers */; };
+		BD7AF528256B96BE007594A5 /* StickerPack.app in Resources */ = {isa = PBXBuildFile; fileRef = BD7AF517256B9684007594A5 /* StickerPack.app */; };
 		BDA77F29255A173B007DEE01 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA77F28255A173B007DEE01 /* registerViewController.swift */; };
 		E6EA3660961059F80B886F4C /* Pods_Journal_Journeys_Journal_JourneysUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7013FB10953D36E4958AE7A /* Pods_Journal_Journeys_Journal_JourneysUITests.framework */; };
 		EA8E1A0D255A4AD8005575FF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E1A0C255A4AD8005575FF /* ProfileViewController.swift */; };
@@ -40,7 +44,28 @@
 			remoteGlobalIDString = 50D0FA3E25590EE7009D338A;
 			remoteInfo = "Journal Journeys";
 		};
+		BD7AF51C256B9684007594A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D0FA3725590EE7009D338A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD7AF519256B9684007594A5;
+			remoteInfo = "StickerPack StickerPackExtension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BD7AF523256B9684007594A5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BD7AF51B256B9684007594A5 /* StickerPack StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0656D9FF57845ADE3B2BB3BB /* Pods_Journal_JourneysTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Journal_JourneysTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +90,9 @@
 		69F59EA1D00034602775A506 /* Pods-Journal JourneysTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journal JourneysTests.debug.xcconfig"; path = "Target Support Files/Pods-Journal JourneysTests/Pods-Journal JourneysTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9264545DC1EE7718C7AF45E1 /* Pods-Journal JourneysTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journal JourneysTests.release.xcconfig"; path = "Target Support Files/Pods-Journal JourneysTests/Pods-Journal JourneysTests.release.xcconfig"; sourceTree = "<group>"; };
 		BCE720538E7D0B2995F72C3C /* Pods-Journal Journeys-Journal JourneysUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journal Journeys-Journal JourneysUITests.release.xcconfig"; path = "Target Support Files/Pods-Journal Journeys-Journal JourneysUITests/Pods-Journal Journeys-Journal JourneysUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BD7AF517256B9684007594A5 /* StickerPack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickerPack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7AF51A256B9684007594A5 /* StickerPack StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "StickerPack StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7AF51E256B9684007594A5 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "StickerPack StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
 		BDA77F28255A173B007DEE01 /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
 		C535E6E37E2A8E44D6DDC721 /* Pods-Journal Journeys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journal Journeys.release.xcconfig"; path = "Target Support Files/Pods-Journal Journeys/Pods-Journal Journeys.release.xcconfig"; sourceTree = "<group>"; };
 		CEFB3C2B361D70AC6D271D75 /* Pods-Journal Journeys-Journal JourneysUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journal Journeys-Journal JourneysUITests.debug.xcconfig"; path = "Target Support Files/Pods-Journal Journeys-Journal JourneysUITests/Pods-Journal Journeys-Journal JourneysUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +132,7 @@
 		50D0FA3625590EE7009D338A = {
 			isa = PBXGroup;
 			children = (
+				BD7AF51E256B9684007594A5 /* Stickers.xcstickers */,
 				50D0FA4125590EE7009D338A /* Journal Journeys */,
 				50D0FA5825590EE7009D338A /* Journal JourneysTests */,
 				50D0FA6325590EE8009D338A /* Journal JourneysUITests */,
@@ -119,6 +148,8 @@
 				50D0FA3F25590EE7009D338A /* Journal Journeys.app */,
 				50D0FA5525590EE7009D338A /* Journal JourneysTests.xctest */,
 				50D0FA6025590EE7009D338A /* Journal JourneysUITests.xctest */,
+				BD7AF517256B9684007594A5 /* StickerPack.app */,
+				BD7AF51A256B9684007594A5 /* StickerPack StickerPackExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -244,6 +275,38 @@
 			productReference = 50D0FA6025590EE7009D338A /* Journal JourneysUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		BD7AF516256B9684007594A5 /* StickerPack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD7AF527256B9684007594A5 /* Build configuration list for PBXNativeTarget "StickerPack" */;
+			buildPhases = (
+				BD7AF515256B9684007594A5 /* Resources */,
+				BD7AF523256B9684007594A5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD7AF51D256B9684007594A5 /* PBXTargetDependency */,
+			);
+			name = StickerPack;
+			productName = StickerPack;
+			productReference = BD7AF517256B9684007594A5 /* StickerPack.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		BD7AF519256B9684007594A5 /* StickerPack StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD7AF526256B9684007594A5 /* Build configuration list for PBXNativeTarget "StickerPack StickerPackExtension" */;
+			buildPhases = (
+				BD7AF518256B9684007594A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StickerPack StickerPackExtension";
+			productName = "StickerPack StickerPackExtension";
+			productReference = BD7AF51A256B9684007594A5 /* StickerPack StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -264,6 +327,12 @@
 						CreatedOnToolsVersion = 12.1;
 						TestTargetID = 50D0FA3E25590EE7009D338A;
 					};
+					BD7AF516256B9684007594A5 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					BD7AF519256B9684007594A5 = {
+						CreatedOnToolsVersion = 11.6;
+					};
 				};
 			};
 			buildConfigurationList = 50D0FA3A25590EE7009D338A /* Build configuration list for PBXProject "Journal Journeys" */;
@@ -282,6 +351,8 @@
 				50D0FA3E25590EE7009D338A /* Journal Journeys */,
 				50D0FA5425590EE7009D338A /* Journal JourneysTests */,
 				50D0FA5F25590EE7009D338A /* Journal JourneysUITests */,
+				BD7AF516256B9684007594A5 /* StickerPack */,
+				BD7AF519256B9684007594A5 /* StickerPack StickerPackExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -293,6 +364,7 @@
 			files = (
 				50D0FA4F25590EE7009D338A /* LaunchScreen.storyboard in Resources */,
 				50D0FA4C25590EE7009D338A /* Assets.xcassets in Resources */,
+				BD7AF528256B96BE007594A5 /* StickerPack.app in Resources */,
 				50D0FA4A25590EE7009D338A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +380,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7AF515256B9684007594A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7AF520256B9684007594A5 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7AF518256B9684007594A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7AF51F256B9684007594A5 /* Stickers.xcstickers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +548,11 @@
 			isa = PBXTargetDependency;
 			target = 50D0FA3E25590EE7009D338A /* Journal Journeys */;
 			targetProxy = 50D0FA6125590EE8009D338A /* PBXContainerItemProxy */;
+		};
+		BD7AF51D256B9684007594A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD7AF519256B9684007594A5 /* StickerPack StickerPackExtension */;
+			targetProxy = BD7AF51C256B9684007594A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -721,6 +814,64 @@
 			};
 			name = Release;
 		};
+		BD7AF521256B9684007594A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UN7X7C8B84;
+				INFOPLIST_FILE = StickerPack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				PRODUCT_BUNDLE_IDENTIFIER = Journal.StickerPack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD7AF522256B9684007594A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UN7X7C8B84;
+				INFOPLIST_FILE = StickerPack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				PRODUCT_BUNDLE_IDENTIFIER = Journal.StickerPack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD7AF524256B9684007594A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UN7X7C8B84;
+				INFOPLIST_FILE = "StickerPack StickerPackExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				PRODUCT_BUNDLE_IDENTIFIER = Journal.StickerPack.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD7AF525256B9684007594A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UN7X7C8B84;
+				INFOPLIST_FILE = "StickerPack StickerPackExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				PRODUCT_BUNDLE_IDENTIFIER = Journal.StickerPack.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -756,6 +907,24 @@
 			buildConfigurations = (
 				50D0FA7025590EE8009D338A /* Debug */,
 				50D0FA7125590EE8009D338A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD7AF526256B9684007594A5 /* Build configuration list for PBXNativeTarget "StickerPack StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7AF524256B9684007594A5 /* Debug */,
+				BD7AF525256B9684007594A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD7AF527256B9684007594A5 /* Build configuration list for PBXNativeTarget "StickerPack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7AF521256B9684007594A5 /* Debug */,
+				BD7AF522256B9684007594A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
