@@ -3,15 +3,13 @@ PODS:
   - AlamofireImage (3.6.0):
     - Alamofire (~> 4.9)
   - Bolts/Tasks (1.9.1)
-  - CircularSlider (1.1.2)
-  - Parse (1.19.0):
-    - Parse/Core (= 1.19.0)
-  - Parse/Core (1.19.0):
+  - Parse (1.19.1):
+    - Parse/Core (= 1.19.1)
+  - Parse/Core (1.19.1):
     - Bolts/Tasks (= 1.9.1)
 
 DEPENDENCIES:
   - AlamofireImage
-  - CircularSlider
   - Parse
 
 SPEC REPOS:
@@ -19,16 +17,14 @@ SPEC REPOS:
     - Alamofire
     - AlamofireImage
     - Bolts
-    - CircularSlider
     - Parse
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
   Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
-  CircularSlider: 448f9f7723b845ccd470dac41981feb192e20c50
-  Parse: 0fb5c7cc7ee5900f2434e24607d0496155b8d04f
+  Parse: e40fdb9c7d665823b7fe9865949cac9a53eb2ce7
 
-PODFILE CHECKSUM: 614824f94452b1b509b4eaefbea5ef27f3638823
+PODFILE CHECKSUM: e12638cdc9f01d4a1c01d4abc0943b57b680c1cf
 
 COCOAPODS: 1.9.3

@@ -479,9 +479,6 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="dyR-vT-duS" kind="relationship" relationship="rootViewController" id="aVQ-bZ-703"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y9v-Q7-B5W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -494,6 +491,7 @@
     <resources>
         <image name="AvatarPlaceHolder" width="720" height="722"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="pencil.and.outline" catalog="system" width="128" height="128"/>
         <image name="person.crop.circle.fill" catalog="system" width="128" height="121"/>
         <image name="pngkey.com-art-icon-png-8621568" width="523" height="505"/>
         <systemColor name="labelColor">
