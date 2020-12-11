@@ -11,12 +11,18 @@ import Parse
 class ComposeViewController: UIViewController, UITextViewDelegate {
 
     @IBOutlet weak var entryField: UITextView!
+    @IBOutlet weak var sleepField: UITextField!
+    @IBOutlet weak var exerciseField: UITextField!
+    @IBOutlet weak var waterField: UITextField!
     
     @IBOutlet weak var scrollView: UIScrollView!
     
     @IBAction func onSaveEntryButton(_ sender: Any) {
         let entry = PFObject(className: "Entries")
         entry["textBody"] = entryField.text!
+        entry["sleepBody"] = sleepField.text!
+        entry["exerciseBody"] = exerciseField.text!
+        entry["waterBody"] = waterField.text!
         entry["author"] = PFUser.current()! //idk what we gone be using this for but maybe we can use it later idk
         
         entry.saveInBackground { (success, error) in
@@ -27,6 +33,11 @@ class ComposeViewController: UIViewController, UITextViewDelegate {
                 print("error!")
             }
         }
+        entryField.text?.removeAll();
+        sleepField.text?.removeAll();
+        exerciseField.text?.removeAll();
+        waterField.text?.removeAll();
+        
     }
     
     override func viewDidLoad() {
