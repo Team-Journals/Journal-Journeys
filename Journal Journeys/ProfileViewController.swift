@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate{
     
@@ -87,5 +88,14 @@ class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     }
     
     
+    @IBAction func onLogout(_ sender: Any) {
+        PFUser.logOut()
+        
+        let main = UIStoryboard(name: "Main", bundle:nil)
+        let loginViewController = main.instantiateViewController(identifier: "loginViewController")
+        let sceneDelegate = self.view.window?.windowScene?.delegate as! SceneDelegate
+        sceneDelegate.window?.rootViewController = loginViewController
+        
+    }
 }
 
