@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D84994A78E2666DFA7586F3 /* Pods_Journal_Journeys.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4B512735E7FFABFD97C865 /* Pods_Journal_Journeys.framework */; };
+		507111642561C45F0042186E /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507111632561C45F0042186E /* ComposeViewController.swift */; };
 		50D0FA4325590EE7009D338A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D0FA4225590EE7009D338A /* AppDelegate.swift */; };
 		50D0FA4525590EE7009D338A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D0FA4425590EE7009D338A /* SceneDelegate.swift */; };
 		50D0FA4A25590EE7009D338A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D0FA4825590EE7009D338A /* Main.storyboard */; };
@@ -18,7 +19,10 @@
 		50D0FA8C25591201009D338A /* HomeFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D0FA8B25591201009D338A /* HomeFeedViewController.swift */; };
 		50D0FA9425591221009D338A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D0FA9325591221009D338A /* LoginViewController.swift */; };
 		532AA2837F3ED636FB672CE8 /* Pods_Journal_JourneysTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0656D9FF57845ADE3B2BB3BB /* Pods_Journal_JourneysTests.framework */; };
+		BDA77F29255A173B007DEE01 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA77F28255A173B007DEE01 /* registerViewController.swift */; };
 		E6EA3660961059F80B886F4C /* Pods_Journal_Journeys_Journal_JourneysUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7013FB10953D36E4958AE7A /* Pods_Journal_Journeys_Journal_JourneysUITests.framework */; };
+		EA8E1A0D255A4AD8005575FF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E1A0C255A4AD8005575FF /* ProfileViewController.swift */; };
+		EA8E1A12255A503B005575FF /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E1A11255A503B005575FF /* UpdateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,7 @@
 		0656D9FF57845ADE3B2BB3BB /* Pods_Journal_JourneysTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Journal_JourneysTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF06F3EE538EC6192814744 /* Pods-Journal Journeys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journal Journeys.debug.xcconfig"; path = "Target Support Files/Pods-Journal Journeys/Pods-Journal Journeys.debug.xcconfig"; sourceTree = "<group>"; };
 		2D4B512735E7FFABFD97C865 /* Pods_Journal_Journeys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Journal_Journeys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		507111632561C45F0042186E /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		50D0FA3F25590EE7009D338A /* Journal Journeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Journal Journeys.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D0FA4225590EE7009D338A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50D0FA4425590EE7009D338A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,8 +65,11 @@
 		69F59EA1D00034602775A506 /* Pods-Journal JourneysTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journal JourneysTests.debug.xcconfig"; path = "Target Support Files/Pods-Journal JourneysTests/Pods-Journal JourneysTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9264545DC1EE7718C7AF45E1 /* Pods-Journal JourneysTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journal JourneysTests.release.xcconfig"; path = "Target Support Files/Pods-Journal JourneysTests/Pods-Journal JourneysTests.release.xcconfig"; sourceTree = "<group>"; };
 		BCE720538E7D0B2995F72C3C /* Pods-Journal Journeys-Journal JourneysUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journal Journeys-Journal JourneysUITests.release.xcconfig"; path = "Target Support Files/Pods-Journal Journeys-Journal JourneysUITests/Pods-Journal Journeys-Journal JourneysUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BDA77F28255A173B007DEE01 /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
 		C535E6E37E2A8E44D6DDC721 /* Pods-Journal Journeys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journal Journeys.release.xcconfig"; path = "Target Support Files/Pods-Journal Journeys/Pods-Journal Journeys.release.xcconfig"; sourceTree = "<group>"; };
 		CEFB3C2B361D70AC6D271D75 /* Pods-Journal Journeys-Journal JourneysUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journal Journeys-Journal JourneysUITests.debug.xcconfig"; path = "Target Support Files/Pods-Journal Journeys-Journal JourneysUITests/Pods-Journal Journeys-Journal JourneysUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA8E1A0C255A4AD8005575FF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		EA8E1A11255A503B005575FF /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
 		F7013FB10953D36E4958AE7A /* Pods_Journal_Journeys_Journal_JourneysUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Journal_Journeys_Journal_JourneysUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -125,7 +133,11 @@
 				50D0FA4D25590EE7009D338A /* LaunchScreen.storyboard */,
 				50D0FA5025590EE7009D338A /* Info.plist */,
 				50D0FA8B25591201009D338A /* HomeFeedViewController.swift */,
+				507111632561C45F0042186E /* ComposeViewController.swift */,
 				50D0FA9325591221009D338A /* LoginViewController.swift */,
+				BDA77F28255A173B007DEE01 /* registerViewController.swift */,
+				EA8E1A0C255A4AD8005575FF /* ProfileViewController.swift */,
+				EA8E1A11255A503B005575FF /* UpdateViewController.swift */,
 			);
 			path = "Journal Journeys";
 			sourceTree = "<group>";
@@ -409,9 +421,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA8E1A0D255A4AD8005575FF /* ProfileViewController.swift in Sources */,
 				50D0FA9425591221009D338A /* LoginViewController.swift in Sources */,
 				50D0FA4325590EE7009D338A /* AppDelegate.swift in Sources */,
+				507111642561C45F0042186E /* ComposeViewController.swift in Sources */,
 				50D0FA4525590EE7009D338A /* SceneDelegate.swift in Sources */,
+				BDA77F29255A173B007DEE01 /* registerViewController.swift in Sources */,
+				EA8E1A12255A503B005575FF /* UpdateViewController.swift in Sources */,
 				50D0FA8C25591201009D338A /* HomeFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

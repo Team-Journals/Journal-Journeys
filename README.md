@@ -23,10 +23,9 @@ An interactive journal where you can record and customize each entry utilizing s
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-
-* [sign up]
-* [sign in]
-* [compose a new entry]
+* [x][sign up]
+* [x][sign in]
+* [IN PROGRESS][compose a new entry]
 * [view all prior entries]
 
 **Optional Nice-to-have Stories**
@@ -47,7 +46,7 @@ An interactive journal where you can record and customize each entry utilizing s
     * Selection of background colors for apps
     * Choice of app font for viewing each screen of the app
     * Setting/selecting profile picture
-* Settings
+* [IN PROGRESS]Settings
     * Change username
     * Change password
     * Change email
@@ -89,10 +88,9 @@ An interactive journal where you can record and customize each entry utilizing s
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="https://github.com/Team-Journals/Journal-Journeys/blob/main/wireframe.png" width=600>
+<img src="https://github.com/Team-Journals/Journal-Journeys/blob/Miscellaneous/wireframe.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
-https://github.com/Team-Journals/Journal-Journeys/blob/main/wireframe.png
 
 ### [BONUS] Interactive Prototype
 
@@ -100,7 +98,7 @@ https://github.com/Team-Journals/Journal-Journeys/blob/main/wireframe.png
 [This section will be completed in Unit 9]
 ### Models
 [Add table of models]
-<img src="https://github.com/Team-Journals/Journal-Journeys/blob/main/CodePathModels.png" width=600>
+<img src="https://github.com/Team-Journals/Journal-Journeys/blob/Miscellaneous/CodePathModels.png" width=600>
 
 ### Networking
 ```
@@ -204,3 +202,11 @@ query.getObjectInBackground(withId: "username") { (username, error) in
     }
 }
 ```
+Milestone 1 GIF:
+<img src='https://media.giphy.com/media/mQJX1gfXXLeeqRaGDK/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+Milestone 1 Part2 GIF:
+<img src='https://recordit.co/TQbUWudFah.gif' title='Video Walkthrough1' width='' alt='Video Walkthrough1' />
+
+Milestone 2 GIF:
+<img src='https://media.giphy.com/media/o4fhSW0AAPMvclCUd6/giphy.gif' title='Video Walkthrough2' width='' alt='Video Walkthrough2' />
